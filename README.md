@@ -1,1 +1,1 @@
-# luisDorianFereiraCalderon-POO-GrupoA-20241
+Tareas y ejercicios POO
