@@ -26,13 +26,17 @@ public class Main {
         }
         band=true;
         while(band==true) {
-            System.out.println("opciones");
-            System.out.println("1. registrar productos: ");
-            System.out.println("2. MOSTRAR PRODUCTOS");
-            System.out.println("3. Registrar Cliente");
-
-            System.out.println("Introduzca su opcion: ");
-            int opcion=leer.nextInt();
+            System.out.println("Opciones");
+            System.out.println("1. Registrar productos");
+            System.out.println("2. Mostrar productos");
+            System.out.println("3. Registrar cliente");
+            System.out.println("4. Modificar stock de un producto");
+            System.out.println("5. Eliminar producto");
+            System.out.println("6. Mostrar información de un producto");
+            System.out.println("7. Ver número total de clientes");
+            System.out.println("8. Salir");
+            System.out.println("Introduzca su opción: ");
+            int opcion = leer.nextInt();
             switch (opcion){
                 case 1:
                     leer.nextLine();
